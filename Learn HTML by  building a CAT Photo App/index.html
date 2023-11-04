@@ -56,7 +56,12 @@
                     overide this behaviour we add the name attribute to the radio input element-->
                     <!--why is that the input type="radio" should have a value attribute -- this is because if the
                     value attribute is not there then on form submit indoor-outdoor=on is passed on form submit-->
+                    <!--fieldset element is used here to wrap the radio buttons, we will be also
+                    using the legend element to give caption under whatever is there inside the fieldset element-->
                     <fieldset>
+                        <legend>
+                            Is your cat an indoor or outdoor cat?
+                        </legend>
                         <label>
                             <input id="indoor" name="indoor-outdoor" type="radio" value="indoor"> Indoor
                         </label>
