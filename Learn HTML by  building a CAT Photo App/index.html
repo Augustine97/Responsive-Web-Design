@@ -51,9 +51,11 @@
                 <h2>Cat Form</h2>
                 <form action="https://freecatphotoapp.com/submit-cat-photo">
                     <!-- create  a radio button  -- there is no closing tag for input element as they are self-closing tag-->
-                    <input type="radio">Indoor
+                    <label>
+                        <input type="radio"> Indoor
+                    </label>
                     <!--in the below case the button and the input element are coming in the same line because they are inline elements-->
-                    <input name="catphotourl" placeholder="cat photo URL" required type="text"/>
+                    <input name="catphotourl" placeholder="cat photo URL" required type="text">
                     <!--  add the type submit because to make it clear it is a submit button -->
                     <button type="submit">Submit</button>
                 </form>
