@@ -51,11 +51,14 @@
                 <h2>Cat Form</h2>
                 <form action="https://freecatphotoapp.com/submit-cat-photo">
                     <!-- create  a radio button  -- there is no closing tag for input element as they are self-closing tag-->
+                    <!--  why do we add the name attribute to the radio buttons  -- this is because if
+                    we don't add the name attribute both the radio buttons will be selected at  once upon click and to
+                    overide this behaviour we add the name attribute to the radio input element-->
                     <label>
-                        <input id="indoor" type="radio"> Indoor
+                        <input id="indoor" name="indoor-outdoor" type="radio"> Indoor
                     </label>
                     <label>
-                        <input id="outdoor" name="outdoor" type="radio">Outdoor
+                        <input id="outdoor" name="indoor-outdoor" type="radio"> Outdoor
                     </label>
                     <!--in the below case the button and the input element are coming in the same line because they are inline elements-->
                     <input name="catphotourl" placeholder="cat photo URL" required type="text">
