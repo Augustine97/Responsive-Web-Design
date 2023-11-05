@@ -14,3 +14,7 @@ h1, h2, p {
     background-color: burlywood;
     margin: 0 auto;
 }
+
+.flavor {
+    text-align: left;
+}
