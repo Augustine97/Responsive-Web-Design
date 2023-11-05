@@ -2,6 +2,7 @@ body {
     /*background-color: burlywood;*/
     background-image: url(https://cdn.freecodecamp.org/curriculum/css-cafe/beans.jpg);
 }
+
 h1, h2, p {
     text-align: center;
 }
@@ -21,4 +22,10 @@ h1, h2, p {
 
 .price {
     text-align: right;
+}
+
+/*keep both flavor and price on the same line and by default they
+lie on different lines as they are block level elements*/
+.item p {
+    display: inline-block;
 }
