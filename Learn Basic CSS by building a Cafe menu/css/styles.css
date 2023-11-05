@@ -13,6 +13,10 @@ h1, h2 {
     font-family: 'Impact', serif;
 }
 
+.established {
+    font-style: italic;
+}
+
 .menu {
     /*change the width from 300px to 80% which
     means 80% of the parent element  */
