@@ -18,12 +18,12 @@ h1, h2, p {
 
 .flavor {
     text-align: left;
-    width: 50%;
+    width: 49%;
 }
 
 .price {
     text-align: right;
-    width: 50%;
+    width: 49%;
 }
 
 /*keep both flavor and price on the same line and by default they
