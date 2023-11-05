@@ -23,6 +23,8 @@ h1, h2, p {
 
 .price {
     text-align: right;
+    /*change the below width to 50%
+    to pass the 41st challenge*/
     width: 49%;
 }
 
