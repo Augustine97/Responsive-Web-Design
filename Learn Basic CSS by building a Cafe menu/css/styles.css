@@ -11,4 +11,5 @@ h1, h2, p {
     /*width: 300px;*/
     width: 80%;
     background-color: burlywood;
+    margin: 0 auto;
 }
