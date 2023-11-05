@@ -8,6 +8,10 @@ h1, h2, p {
     text-align: center;
 }
 
+h1, h2 {
+    font-family: Impact;
+}
+
 .menu {
     /*change the width from 300px to 80% which
     means 80% of the parent element  */
