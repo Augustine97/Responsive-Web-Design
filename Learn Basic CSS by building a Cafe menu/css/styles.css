@@ -18,14 +18,14 @@ h1, h2, p {
 
 .flavor {
     text-align: left;
-    width: 49%;
+    width: 75%;
 }
 
 .price {
     text-align: right;
     /*change the below width to 50%
     to pass the 41st challenge*/
-    width: 49%;
+    width: 25%;
 }
 
 /*keep both flavor and price on the same line and by default they
