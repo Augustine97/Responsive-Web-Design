@@ -16,7 +16,7 @@ h1, h2, p {
     margin: 0 auto;
 }
 
-.flavor {
+.flavor, .dessert {
     text-align: left;
     /*change the below width to 50%
     to pass the 41st challenge*/
