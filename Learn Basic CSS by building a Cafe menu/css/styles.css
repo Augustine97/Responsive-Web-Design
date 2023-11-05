@@ -6,6 +6,9 @@ h1, h2, p {
 }
 
 #menu {
-    width: 300px;
+    /*change the width from 300px to 80% which
+    means 80% of the parent element  */
+    /*width: 300px;*/
+    width: 80%;
     background-color: burlywood;
 }
