@@ -66,4 +66,5 @@ hr {
 lie on different lines as they are block level elements*/
 .item p {
     display: inline-block;
+    margin: 5px 0 5px 0;
 }
