@@ -5,6 +5,7 @@ body {
     padding: 20px;
 }
 
+/* MAIN */
 h1, h2, p {
     text-align: center;
 }
@@ -73,3 +74,5 @@ lie on different lines as they are block level elements*/
     margin: 5px 0 5px 0;
     font-size: 18px;
 }
+
+/* FOOTER */
