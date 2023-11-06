@@ -28,6 +28,10 @@ hr {
     border-color: brown;
 }
 
+.bottom-line {
+    margin: 25px 0 0 0;
+}
+
 .established {
     font-style: italic;
 }
