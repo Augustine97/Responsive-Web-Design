@@ -101,3 +101,8 @@ a:active {
 .address {
     margin: 0 0 5px 0;
 }
+
+img {
+    display: block;
+    margin: 0 auto;
+}
