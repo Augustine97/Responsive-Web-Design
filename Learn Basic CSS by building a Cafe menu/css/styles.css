@@ -79,3 +79,7 @@ lie on different lines as they are block level elements*/
 footer {
     font-size: 14px;
 }
+
+a {
+    color: black;
+}
