@@ -97,3 +97,7 @@ a:hover {
 a:active {
     color: brown;
 }
+
+.address {
+    margin: 0 0 5px 0;
+}
