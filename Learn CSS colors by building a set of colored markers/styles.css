@@ -9,6 +9,7 @@ yellow - rgb(255,255,0)
 cyan - rgb(0,255,255)
 magenta - rgb(255, 0, 255)
 orange - rgb(255,127,0)
+spring green - rgb(0,255,127)
 */
 
 h1 {
@@ -27,7 +28,7 @@ h1 {
 }
 
 .two {
-  background-color: rgb(0, 255, 255);
+  background-color: rgb(0, 255, 127);
 }
 
 .three {
