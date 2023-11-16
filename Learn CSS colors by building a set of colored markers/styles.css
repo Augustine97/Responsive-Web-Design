@@ -33,7 +33,11 @@ h1 {
   margin: 10px auto;
 }
 
-.one {
+/* .one {
+  background-color: rgb(0, 0, 0);
+} */
+
+.red {
   background-color: rgb(0, 0, 0);
 }
 
