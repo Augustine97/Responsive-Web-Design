@@ -1,3 +1,13 @@
+/* TODO: add the below to markdown */
+/* 
+red -- rgb(255,0,0)
+green - rgb(0,255,0) 
+blue - rgb(0,0,255)
+black - rgb(0,0,0)
+white - rgb(255,255,255)
+yellow - rgb(255,255,0)
+*/
+
 h1 {
   text-align: center;
 }
@@ -10,7 +20,7 @@ h1 {
 }
 
 .one {
-  background-color: rgb(255, 0, 0);
+  background-color: rgb(255, 255, 0);
 }
 
 .two {
@@ -22,12 +32,6 @@ h1 {
 }
 
 .container {
-  /* red -- rgb(255,0,0)
-  green - rgb(0,255,0) 
-  blue - rgb(0,0,255)
-  black - rgb(0,0,0)
-  white - rgb(255,255,255)
-  */
   background-color: rgb(255, 255, 255);
   padding: 10px 0;
 }
