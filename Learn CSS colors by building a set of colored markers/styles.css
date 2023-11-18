@@ -19,6 +19,14 @@ rose - rgb(255,0,127)
 
 --- complementary colors--
 - those colors when combined produced grey
+
+--- Hexadecimal colors ----
+- the hexadecimal colors starts with '#'
+- it is set of six colors where the first two
+  colors represent the red, the next two colors
+  represent the green and the sext two colors
+  represent the blue
+- green - #00FF00
 */
 
 h1 {
@@ -43,7 +51,7 @@ h1 {
 
 /* update class .two to class .green */
 .green {
-  background-color: rgb(0, 0, 0);
+  background-color: #00ff00;
 }
 
 /* update class .three to class .blue */
