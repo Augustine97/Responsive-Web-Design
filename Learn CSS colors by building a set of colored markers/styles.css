@@ -26,6 +26,12 @@ rose - rgb(255,0,127)
   colors represent the red, the next two colors
   represent the green and the sext two colors
   represent the blue
+- As we know the hexadecimal values go from 
+  0,1,2,3,4,5,6,7,8,9,A,B,C,D,E,F
+  where 0 is the 0% and FF is 100%
+  so rgb(0,255,0) is equal #00ff00 which is green
+  and we need to reduce the intensity of green color
+  we reduce it by #007f00 which is same as rgb(0,127,0)
 - green - #00FF00
 */
 
@@ -51,7 +57,7 @@ h1 {
 
 /* update class .two to class .green */
 .green {
-  background-color: #00ff00;
+  background-color: #007f00;
 }
 
 /* update class .three to class .blue */
