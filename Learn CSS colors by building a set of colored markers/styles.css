@@ -1,6 +1,6 @@
 /* TODO: add the below to markdown */
 /*
-
+-------RGB-----------
 --secondary colors ---
 red -- rgb(255,0,0)
 green - rgb(0,255,0) 
@@ -20,7 +20,7 @@ rose - rgb(255,0,127)
 --- complementary colors--
 - those colors when combined produced grey
 
---- Hexadecimal colors ----
+----------- Hexadecimal colors -----------
 - the hexadecimal colors starts with '#'
 - it is set of six colors where the first two
   colors represent the red, the next two colors
@@ -33,6 +33,29 @@ rose - rgb(255,0,127)
   and we need to reduce the intensity of green color
   we reduce it by #007f00 which is same as rgb(0,127,0)
 - green - #00FF00
+
+----------HSL color model ---------------
+HSL - H stands for Hue, S stands for saturation and L stands
+      lightness
+- HSL accepts 3 values ie, a number from 0 to 360 for hue,
+  percentage from 0 to 100 for saturation and percentage from
+  0 to 100 for lightness
+
+- if you imagine a color wheel, the hue red is at 0 degrees, 
+ green is at 120 degrees, and blue is at 240 degrees.
+
+- Saturation is the intensity of a color from 0%, or gray, 
+  to 100% for pure color. 
+  You must add the percent sign % to the saturation 
+  and lightness values.
+
+- Lightness is how bright a color appears, 
+ from 0%, or complete black, to 
+ 100%, complete white, 
+ with 50% being neutral. 
+
+ - blue - hsl(240,100%,50%)
+
 */
 
 h1 {
@@ -62,7 +85,7 @@ h1 {
 
 /* update class .three to class .blue */
 .blue {
-  background-color: rgb(0, 0, 0);
+  background-color: hsl(240, 100%, 50%);
 }
 
 .container {
