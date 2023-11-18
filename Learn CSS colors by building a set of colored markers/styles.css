@@ -62,7 +62,8 @@ HSL - H stands for Hue, S stands for saturation and L stands
  direction of the transition along a line, and which 
  colors are used.
 - linear gradient creates an image element.
-
+- linear gradient syntax
+  linear-gradient(gradientDirn,color1,color2,colorn...)
 
 */
 
@@ -83,7 +84,7 @@ h1 {
 } */
 
 .red {
-  background: rgb(255, 0, 0);
+  background: linear-gradient(90deg);
 }
 
 /* update class .two to class .green */
